@@ -22,7 +22,7 @@ webDB.init = function() {
   try {
     if (openDatabase) {
       webDB.verbose(true);
-      webDB.connect('blogDB', 'Blog Database', 5*1024*1024);
+      webDB.connect('trailDB', 'trails Database', 5*1024*1024);
       webDB.setupTables();
     } else {
       console.log('Web Databases not supported.');
@@ -37,7 +37,7 @@ webDB.connect = function (database, title, size) {
 };
 
 webDB.setupTables = function () {
-  webDB.execute('CREATE TABLE IF NOT EXISTS articles (id INTEGER PRIMARY KEY, title VARCHAR(255) NOT NULL, author VARCHAR(255) NOT NULL, authorUrl VARCHAR (255), category VARCHAR(20), publishedOn DATETIME, markdown TEXT NOT NULL);');
+  webDB.execute('CREATE TABLE IF NOT EXISTS trails (id INTEGER PRIMARY KEY, title VARCHAR(255) NOT NULL, author VARCHAR(255) NOT NULL, authorUrl VARCHAR (255), category VARCHAR(20), publishedOn DATETIME, markdown TEXT NOT NULL);');
 };
 
 webDB.execute = function (sql, callback) {
