@@ -38,5 +38,3 @@ Monday -
 Tuesday - we'll see what happens Monday
 
   -basic CSS so we can work easily
-
-test2
