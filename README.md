@@ -1,4 +1,4 @@
-# hiking-roulette
+# Trail Mix
 
 
 User stories:
@@ -32,4 +32,3 @@ Monday -
 Tuesday - we'll see what happens Monday
 
   -basic CSS so we can work easily
-  
