@@ -1,6 +1,6 @@
 # hiking-roulette
 
-Group name - Trail Mix
+Group name - Trail Mix!
 
 Ardian Ajvazi
 Rick Tesmond
