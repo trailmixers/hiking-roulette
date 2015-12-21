@@ -1,5 +1,11 @@
 # Trail Mix
 
+Group name - Trail Mix!
+
+Ardian Ajvazi
+Rick Tesmond
+Mike Harrison
+
 
 User stories:
 1) As a developer, I want a database that holds all of the trail information so the info is easily accessable(JSON).
