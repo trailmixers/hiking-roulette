@@ -1,4 +1,4 @@
-TRAIL MIX
+# Trail Mix
 
 
 User stories:
