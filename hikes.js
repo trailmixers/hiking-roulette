@@ -5,6 +5,7 @@ function Trail (opts) {
   //add content here?
 };
 
+
 Trail.prototype.insertRecord = function(callback) {
   webDB.execute(
     [
@@ -31,12 +32,32 @@ Trail.prototype.deleteRecord = function(callback) {
 
 Trail.all = [];
 
+Trail.populateTable = function () {
+  $.getJSON('/trails.json', function (data) {
+    data.forEach(function(item) {
+      var trail = new Trail(item);
+      trail.insertRecord();
+      Trail.all.push(trail);
+    });
+  });
+};
+
+
+Trail.checkTable = function (array) {
+  if (array.length === 0) {
+    webDB.execute('DELETE FROM trails;');
+    Trail.populateTable();
+  } else {
+    Trail.populateTable();
+  };
+};
+
 Trail.requestAll = function(next, callback) {
   $.getJSON('/trails.json', function (data) {
     data.forEach(function(item) {
       var trail = new Trail(item);
       trail.insertRecord();
-    });
+    }).done();
     next(callback);
   });
 };
@@ -45,11 +66,13 @@ Trail.loadAll = function(callback) {
   var callback = callback || function() {};
 
   if (Trail.all.length === 0) {
-    webDB.execute('SELECT * FROM trails ORDER BY location DESC;',
+    webDB.execute('SELECT * FROM trails;',
       function(rows) {
         if (rows.length === 0) {
+          console.log("if")
           Trail.requestAll(Trail.loadAll, callback);
         } else {
+          console.log("else");
           rows.forEach(function(row) {
             Trail.all.push(new Trail(row));
           });
@@ -64,5 +87,5 @@ Trail.loadAll = function(callback) {
 
 $(document).ready(function(){
   webDB.init();
-  trailsController.index();
+  Trail.checkTable(Trail.all);
 });
