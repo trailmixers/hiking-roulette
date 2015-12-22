@@ -155,7 +155,7 @@
 },
 
 {
-  "title": "Tipsoo Lake-Naches Peak Loop",
+  "name": "Tipsoo Lake-Naches Peak Loop",
   "location": "Mount Rainier Area",
   "rating": "4.1",
   "distance":"3.2",
@@ -165,7 +165,7 @@
 },
 
 {
-  "title": "Shriner Peak",
+  "name": "Shriner Peak",
   "location": "Mount Rainier Area",
   "rating": "3.0",
   "distance": "8.5",
@@ -175,7 +175,7 @@
 },
 
 {
-  "title": "Ohanapecosh Hot Springs",
+  "name": "Ohanapecosh Hot Springs",
   "location": "Mount Rainier Area",
   "rating": "4.0",
   "distance": "1.0",
@@ -185,7 +185,7 @@
 },
 
 {
-  "title": "Rainier View",
+  "name": "Rainier View",
   "location": "Mount Rainier Area",
   "rating": "4.2",
   "distance": "2.4",
@@ -195,7 +195,7 @@
 },
 
 {
-  "title": "Mystic Lake",
+  "name": "Mystic Lake",
   "location": "Mount Rainier Area",
   "rating": "2.7",
   "distance": "18",
@@ -205,7 +205,7 @@
 },
 
 {
-  "title": "Palisades Lakes",
+  "name": "Palisades Lakes",
   "location": "Mount Rainer Area",
   "rating": "3.1",
   "distance": "7.5",
@@ -215,7 +215,7 @@
 },
 
 {
-  "title": "Norse Peak",
+  "name": "Norse Peak",
   "location": "Mount Rainer Area",
   "rating": "4",
   "distance": "10.6",
@@ -225,7 +225,7 @@
 },
 
 {
-  "title": "Crystal Peak",
+  "name": "Crystal Peak",
   "location": "Mount Rainer Area",
   "rating": "4",
   "distance": "8",
@@ -235,7 +235,7 @@
 },
 
 {
-  "title": "Sheep Lake and Sourdough Gap",
+  "name": "Sheep Lake and Sourdough Gap",
   "location": "Mount Rainer Area",
   "rating": "3.6",
   "distance": "7.0",
@@ -245,7 +245,7 @@
 },
 
 {
-  "title": "Owyhigh Lakes",
+  "name": "Owyhigh Lakes",
   "location": "Mount Rainer Area",
   "rating": "3.0",
   "distance": "8.0",
@@ -256,7 +256,7 @@
 },
 
 {
-  "title": "Sun Top Snowshoe",
+  "name": "Sun Top Snowshoe",
   "location": "Mount Rainer Area",
   "rating": "2.5",
   "distance": "10.0",
@@ -266,7 +266,7 @@
 },
 
 {
-  "title": "Dalles Ridge",
+  "name": "Dalles Ridge",
   "location": "Mount Rainer Area",
   "rating": "3.8",
   "distance": "1.8",
@@ -276,7 +276,7 @@
 },
 
 {
-  "title": "Little Ranger Peak",
+  "name": "Little Ranger Peak",
   "location": "Mount Rainer Area",
   "rating": "3.2",
   "distance": "12.0",
@@ -286,13 +286,13 @@
 },
 
 {
-  "title": "Arch Rock",
+  "name": "Arch Rock",
   "location": "Mount Rainer Area",
   "rating": "4.6",
   "distance": "12.0",
   "elevation": "500",
   "description": "Following the Pacific Crest Trail (PCT) south from the broad fields of Government Meadow, this route explores one of the most solitary sections of the nation's premiere trail. Hikers can experience deep forests and rock bluffs, and dogs can walk with their humans without worrying about encountering too many other hikers along the way. The trail starts on an old wagon road that crossed the Cascades at nearby Naches Pass (now used extensively by four-wheel-drive fanatics).The trail leaves the clear-cut on an old logging road that leads into the trees. In 0.5 mile the broad connector trail ends at a junction with the PCT. Turning left leads you to Government Meadow in about 0.5 mile. Take this side trip now, or leave it for your return trip.",
   "url": "http://www.wta.org/go-hiking/hikes/arch-rock",
-},
+}
 
 ]
