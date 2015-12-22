@@ -97,6 +97,55 @@
     "elevation": "1500",
     "description": "N/A",
     "url": "http://www.wta.org/go-hiking/hikes/mount-margaret",
-  }
+  },
 
+  {
+  "name": "Greenwater and Echo Lakes",
+  "location": "Mount Rainier Area",
+  "rating": "3.0",
+  "distance": "14.0",
+  "elevation": "1900",
+  "description": "Visit a trail where rushing rivers, placid lakes, and wild forests line the trail. The Greenwater River is your constant companion on this hike, winding with you through cool, old-growth forest along this quiet path to two basin lakes. As you walk, watch for the deer and elk that make this area their home. This trail is also used by equestrians, Horse fords for crossing the river are clearly marked with charming wood signs. Be sure to share the trail accordingly!",
+  "url": "http://www.wta.org/go-hiking/hikes/greenwater-lakes",
+},
+
+{
+  "title": "Tipsoo Lake-Naches Peak Loop",
+  "location": "Mount Rainier Area",
+  "rating": "4.1",
+  "distance":"3.2",
+  "elevation":"600",
+  "description": "This popular hike provides a range of alpine experiences in a short loop. Walk along a hillside above a small valley, pause at a viewpoint overlooking a lake, and stroll through grassy meadows with stunning views of Mount Rainier. In season enjoy an abundance of wildflowers or perhaps a handful of huckleberries. The hike follows the Pacific Crest Trail on the northern flank of Naches Peak and the Naches Peak Trail on the southern flank. The loop is best done clockwise for outstanding views of Mount Rainier.",
+  "url": "http://www.wta.org/go-hiking/hikes/naches-peak-loop",
+},
+
+{
+  "title": "Shriner Peak",
+  "location": "Mount Rainier Area",
+  "rating": "3.0",
+  "distance": "8.5",
+  "elevation": "3434",
+  "description": "The under-appreciated Shriner Peak is one of the loneliest trails at Mount Rainier. It's long, steep, and exposed, making it nearly intolerable in the stale summer heat. But enter fall, when the change of season ushers in majestic color and cooler temps, it's the ideal time to hit this high-alpine trail before the snow starts falling again. From the get-go, the Shriner Peak Trail steadily ascends 3,424 feet in 4.25 miles. Bring lots of water--you'll need it , and there aren't many sources along the way. The trail runs parallel to Panther Creek through shade Douglas-fir, cedar, and hemlock for 0.75 miles before entering an old burn area. Traverse this shadeless stretch for another mile to a steep series of switchbacks to the top of a ridge under Shriner Peak. ",
+  "url": "http://www.wta.org/go-hiking/hikes/shriner-peak",
+},
+
+{
+  "title": "Ohanapecosh Hot Springs",
+  "location": "Mount Rainier Area",
+  "rating": "4.0",
+  "distance": "1.0",
+  "elevation": "50",
+  "description": "Early tourists flocked to Ohanapecosh not because it was so spectacularly pretty, but because of the water. More specifically, because of the hot water burbling out of the ground. Today, the lounging pools along the river are gone, but hot water still seeps out of the rocks before merging into the icy-cold waters of the Ohanapecosh River. The trail takes off from the visitor center and wanders through the lush, moss-laden forests on the east bank of the Ohanapecosh River. The trail is well graded and easy to walk, even for kids with short legs and shorter attention spans. The route explores some wonderful forest environments, with a variety of plant life to examine.",
+  "url": "http://www.wta.org/go-hiking/hikes/ohanapecosh-hot-springs",
+},
+
+{
+  "title": "Rainier View",
+  "location": "Mount Rainier Area",
+  "rating": "4.2",
+  "distance": "2.4",
+  "elevation": "300",
+  "description": "This is a great hike for kids with lots to see including wild flowers, big views of Mt. Rainier and maybe even some wildlife including marmots and goats. Take a picnic and enjoy the wonderful sights along this trail. The Rainier View trail starts up gently from the Corral Pass parking area. The trail ascends through the little used Corral Pass Campground at a gentle grade. The easy path ascends very gently through thin stands of tall, pointed alpine trees, and soon comes to the one and only switchback on the whole route. Passing through forest and meadows after a mile or so it breaks out on top of the northwest ridge of Castle Mountain.",
+  "url": "http://www.wta.org/go-hiking/hikes/rainier-view",
+},
 ]
