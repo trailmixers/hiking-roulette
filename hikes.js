@@ -61,3 +61,7 @@ Hike.loadAll = function(callback) {
     callback();
   }
 };
+
+$(document).ready(function(){
+  webDB.init();
+});
