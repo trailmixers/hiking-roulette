@@ -7,3 +7,11 @@ trailsView.renderGroup = function () {
     })
   );
 };
+
+trailsView.render = function (trail) {
+  return trailsView.template(trail);
+};
+
+trailsView.index = function () {
+  trailsView.renderGroup(Trail.all);
+};

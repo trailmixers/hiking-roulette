@@ -1,11 +1,12 @@
-function Hike (opts) {
+function Trail (opts) {
   Object.keys(opts).forEach(function(e, index, keys) {
+    console.log(keys);
     this[e] = opts[e];
   }, this);
   //add content here?
 };
 
-Hike.prototype.insertRecord = function(callback) {
+Trail.prototype.insertRecord = function(callback) {
   webDB.execute(
     [
       {
@@ -17,41 +18,48 @@ Hike.prototype.insertRecord = function(callback) {
   );
 };
 
-Hike.prototype.deleteRecord = function(callback) {
+Trail.prototype.deleteRecord = function(callback) {
   webDB.execute(
     [
       {
         'sql': 'DELETE FROM trails WHERE id= ?;',
-        'data': [article.id],
+        'data': [trail.id],
       }
     ],
     callback
   );
 };
 
-Hike.all = [];
+Trail.all = [];
 
-Hike.requestAll = function(next, callback) {
-  $.getJSON('trails.json', function (data) {
+var getData = function (){
+  $.getJSON('/trails.json', function (data) {
+    console.log(data, "potato");
+  });
+};
+
+Trail.requestAll = function(next, callback) {
+  $.getJSON('/trails.json', function (data) {
     data.forEach(function(item) {
-      var hike = new Hike(item);
-      hike.insertRecord();
+      var trail = new Trail(item);
+      trail.insertRecord();
     });
     next(callback);
   });
 };
 
-Hike.loadAll = function(callback) {
+Trail.loadAll = function(callback) {
   var callback = callback || function() {};
 
-  if (Hike.all.length === 0) {
+  if (Trail.all.length === 0) {
     webDB.execute('SELECT * FROM trails ORDER BY location DESC;',
       function(rows) {
         if (rows.length === 0) {
-          Hike.requestAll(Hike.loadAll, callback);
+          Trail.requestAll(Trail.loadAll, callback);
+          console.log("We're here");
         } else {
           rows.forEach(function(row) {
-            Hike.all.push(new Hike(row));
+            Trail.all.push(new Trail(row));
           });
           callback();
         }
@@ -64,4 +72,5 @@ Hike.loadAll = function(callback) {
 
 $(document).ready(function(){
   webDB.init();
+  getData();
 });
