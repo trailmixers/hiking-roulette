@@ -9,6 +9,51 @@
     "url": "http://www.wta.org/go-hiking/hikes/eagle-lake-fishermans-trail"
   },
   {
+   "name": "Little Wenatchee Gorge",
+   "location": "Central Cascades",
+   "rating": "3.2",
+   "distance": "3.0",
+   "elevation": "250",
+   "description": "Perhaps the best kept secret among the scores of trails within the Lake Wenatchee region, this one follows along the Little Wenatchee River at a dramatic gorge. A wonderful destination for hikers of all ages and abilities, the river puts on quite a show as it tumbles and froths over rapids and beneath ledges. Amble or while away the afternoon, or combine this hike with one of the other nearby short but sweet trails. The trail takes off south from the quiet campground and then immediately swings west. The spur that continues south follows Elevenmile Creek for a short distance to the Little Wenatchee River. It's not a bad diversion if you miss the turn. The main trail, however, continues across a bench of hemlock and huckleberry, shortly meeting up with the river at an inviting spot that encourages napping and picnicking. Directly across from the pristine waterway, Theseus Creek tumbles into it by a small campsite.",
+   "url": "http://www.wta.org/go-hiking/hikes/little-wenatchee-river"
+ },
+ {
+   "name": "Blanca Lake",
+   "location": "Central Cascades",
+   "rating": "4.4",
+   "distance": "7.5",
+   "elevation": "3300",
+   "description": "Visit one of the most striking lakes in the Henry M. Jackson wilderness. The vibrant blue of the glacier-fed lake provides the perfect rest stop for hikers who have braved the thirty-odd, steep switchbacks that lead to the lake. If you can tear your eyes away from the trail, the view will take your breath away. Across the valley is the foot of Columbia Peak, and ss you round the last point, beautiful Blanca Lake opens up in all her glory. The lake is framed to the north by the peaks of Monte Cristo, Columbia, and Keyes. More than a few hikers have been known to gasp aloud when they round the corner and see the robin-egg blue waters.",
+   "url": "http://www.wta.org/go-hiking/hikes/blanca-lake"
+ },
+ {
+   "name": "Scorpion Mountain",
+   "location": "Central Cascades",
+   "rating": "NA",
+   "distance": "8.0",
+   "elevation": "2500",
+   "description": "Scorpion Mountain offers a 360-degree view of the Central Cascades, and the huckleberries and blueberries make this a much underrated fall hike. The trail seems like a gentle climb up to the rounded top of Scorpion Mountain where there is room for lots of hikers, but, in the fall, it is often not crowded. Find a place to sit and eat lunch, and then turn around and enjoy the view on the other side.",
+   "url": "http://www.wta.org/go-hiking/hikes/scorpion-mountain"
+ },
+ {
+   "name": "Mount Persis",
+   "location": "Central Cascades",
+   "rating": "3.8",
+   "distance": "4.0",
+   "elevation": "2658",
+   "description": "e prepared: this is not an easy hike. More a bootpath than a real trail, the route occasionally disappears in the undergrowth. The trail is also very steep in places, requiring a little help from nearby trees to make your way up. But the views are incredible; just don’t let the short mileage fool you, and plan on spending a few extra hours tackling this one. Once you reach the summit of Persis, soak up the expansive views. Neighboring Index is massive. Pick out Baring, Mt. Baker, Gunn Peak, and Mt. Rainier. The exposed granite of the Index Town Wall is easy to spot above the miniature town of Index, and Heybrook Ridge sits just under Mt. Baring. The 360-degree views offer plenty to see before starting the steep slog back down the mountain.",
+   "url": "http://www.wta.org/go-hiking/hikes/mount-persis"
+ },
+ {
+   "name": "Bridal Veil Falls",
+   "location": "Central Cascades",
+   "rating": "4.0",
+   "distance": "4.0",
+   "elevation": "1000",
+   "description": "beautiful waterfall flows out of Lake Serene and cascades below the rugged east wall of Mount Index at the end ofa trail on the west side of Bridal Veil Creek. Take time to see and enjoy a stunning view of Bridal Veil Falls and climb flights of steps paralleling the falls. Children will be fascinated as they stand directly beside the water and look up a 100-foot rock face to see the streams of water that make up the bridal veil pouring beside them. An old nearby mine, the Honeymoon Mine, brought the original nineteenth-century travelers to the Lake Serene area.",
+   "url": "http://www.wta.org/go-hiking/hikes/bridal-veil-falls"
+ },
+  {
     "name": "Windy Pass - Mount Catherine Snowshoe",
     "location": "Snoqualmie Pass",
     "rating": "3.0",
