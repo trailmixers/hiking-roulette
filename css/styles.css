@@ -1,1 +1,21 @@
-/*CSS goes here*/
+/*navbrand*/
+header .navbar-brand{
+	background: url(../img/trailmixlogo2.png);
+	background-repeat: no-repeat;
+	width: 200px;
+	height: auto;
+  padding-bottom: 46px;
+}
+
+/*form*/
+.randomizer {
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+/*footer*/
+footer{
+  background-color: black;
+
+}
