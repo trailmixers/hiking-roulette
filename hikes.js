@@ -1,6 +1,5 @@
 function Trail (opts) {
   Object.keys(opts).forEach(function(e, index, keys) {
-    console.log(keys);
     this[e] = opts[e];
   }, this);
   //add content here?
@@ -32,12 +31,6 @@ Trail.prototype.deleteRecord = function(callback) {
 
 Trail.all = [];
 
-var getData = function (){
-  $.getJSON('/trails.json', function (data) {
-    console.log(data, "potato");
-  });
-};
-
 Trail.requestAll = function(next, callback) {
   $.getJSON('/trails.json', function (data) {
     data.forEach(function(item) {
@@ -56,7 +49,6 @@ Trail.loadAll = function(callback) {
       function(rows) {
         if (rows.length === 0) {
           Trail.requestAll(Trail.loadAll, callback);
-          console.log("We're here");
         } else {
           rows.forEach(function(row) {
             Trail.all.push(new Trail(row));
@@ -72,5 +64,5 @@ Trail.loadAll = function(callback) {
 
 $(document).ready(function(){
   webDB.init();
-  getData();
+  trailsController.index();
 });
