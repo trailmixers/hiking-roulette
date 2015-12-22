@@ -191,5 +191,145 @@
     "elevation": "300",
     "description": "This is a great hike for kids with lots to see including wild flowers, big views of Mt. Rainier and maybe even some wildlife including marmots and goats. Take a picnic and enjoy the wonderful sights along this trail. The Rainier View trail starts up gently from the Corral Pass parking area. The trail ascends through the little used Corral Pass Campground at a gentle grade. The easy path ascends very gently through thin stands of tall, pointed alpine trees, and soon comes to the one and only switchback on the whole route. Passing through forest and meadows after a mile or so it breaks out on top of the northwest ridge of Castle Mountain.",
     "url": "http://www.wta.org/go-hiking/hikes/rainier-view"
+  },
+  {
+    "name": "Tipsoo Lake-Naches Peak Loop",
+    "location": "Mount Rainier Area",
+    "rating": "4.1",
+    "distance":"3.2",
+    "elevation":"600",
+    "description": "This popular hike provides a range of alpine experiences in a short loop. Walk along a hillside above a small valley, pause at a viewpoint overlooking a lake, and stroll through grassy meadows with stunning views of Mount Rainier. In season enjoy an abundance of wildflowers or perhaps a handful of huckleberries. The hike follows the Pacific Crest Trail on the northern flank of Naches Peak and the Naches Peak Trail on the southern flank. The loop is best done clockwise for outstanding views of Mount Rainier.",
+    "url": "http://www.wta.org/go-hiking/hikes/naches-peak-loop"
+  },
+
+  {
+    "name": "Shriner Peak",
+    "location": "Mount Rainier Area",
+    "rating": "3.0",
+    "distance": "8.5",
+    "elevation": "3434",
+    "description": "The under-appreciated Shriner Peak is one of the loneliest trails at Mount Rainier. It's long, steep, and exposed, making it nearly intolerable in the stale summer heat. But enter fall, when the change of season ushers in majestic color and cooler temps, it's the ideal time to hit this high-alpine trail before the snow starts falling again. From the get-go, the Shriner Peak Trail steadily ascends 3,424 feet in 4.25 miles. Bring lots of water--you'll need it , and there aren't many sources along the way. The trail runs parallel to Panther Creek through shade Douglas-fir, cedar, and hemlock for 0.75 miles before entering an old burn area. Traverse this shadeless stretch for another mile to a steep series of switchbacks to the top of a ridge under Shriner Peak. ",
+    "url": "http://www.wta.org/go-hiking/hikes/shriner-peak"
+  },
+
+  {
+    "name": "Ohanapecosh Hot Springs",
+    "location": "Mount Rainier Area",
+    "rating": "4.0",
+    "distance": "1.0",
+    "elevation": "50",
+    "description": "Early tourists flocked to Ohanapecosh not because it was so spectacularly pretty, but because of the water. More specifically, because of the hot water burbling out of the ground. Today, the lounging pools along the river are gone, but hot water still seeps out of the rocks before merging into the icy-cold waters of the Ohanapecosh River. The trail takes off from the visitor center and wanders through the lush, moss-laden forests on the east bank of the Ohanapecosh River. The trail is well graded and easy to walk, even for kids with short legs and shorter attention spans. The route explores some wonderful forest environments, with a variety of plant life to examine.",
+    "url": "http://www.wta.org/go-hiking/hikes/ohanapecosh-hot-springs"
+  },
+
+  {
+    "name": "Rainier View",
+    "location": "Mount Rainier Area",
+    "rating": "4.2",
+    "distance": "2.4",
+    "elevation": "300",
+    "description": "This is a great hike for kids with lots to see including wild flowers, big views of Mt. Rainier and maybe even some wildlife including marmots and goats. Take a picnic and enjoy the wonderful sights along this trail. The Rainier View trail starts up gently from the Corral Pass parking area. The trail ascends through the little used Corral Pass Campground at a gentle grade. The easy path ascends very gently through thin stands of tall, pointed alpine trees, and soon comes to the one and only switchback on the whole route. Passing through forest and meadows after a mile or so it breaks out on top of the northwest ridge of Castle Mountain.",
+    "url": "http://www.wta.org/go-hiking/hikes/rainier-view"
+  },
+
+  {
+    "name": "Mystic Lake",
+    "location": "Mount Rainier Area",
+    "rating": "2.7",
+    "distance": "18",
+    "elevation": "2520",
+    "description": "This is a trail where the journey is as interesting as the destination. Enjoy a beautiful waterfall and views of icy Winthrop Glacier. Gaze directly at Mount Rainier and witness the fascinating destruction caused by the floods of 2006. All of this is chased by the peaceful basin of Mystic Lake and surrounding meadows. Find the Sourdough Ridge trail near the restrooms on the north side of the parking area. Climb through a meadow to a junction with the Sourdough Ridge Trail, where you head left (east) toward Frozen Lake. At Frozen Lake follow the signs for the Wonderland Trail westbound. At 3.1 miles from the trailhead crest the ridgeline for Skyscraper Pass, where Mount Rainier looks so close you could touch it. Descend from Skyscraper Pass into the trees and at 4.4 miles reach Granite Creek wilderness camp. Flat spots to rest, water to filter and a backcountry latrine are all here if you need them.",
+    "url": "http://www.wta.org/go-hiking/hikes/mystic-lake"
+  },
+
+  {
+    "name": "Palisades Lakes",
+    "location": "Mount Rainer Area",
+    "rating": "3.1",
+    "distance": "7.5",
+    "elevation": "1800",
+    "description": "Seven lakes, seas of wildflowers, summer huckleberries, a bevy of wildlife and a good chance of quiet solitude await you on this 9-mile out-and-back. What more could you ask for? While the throngs of summer visitors are heading to the end of the road at Sunrise Point, pull off into the corner viewpoint parking area near the top. The trail starts across the road and heads downhill to Sunrise Lake, the first of many you’ll encounter. It’s nice, but keep going. Passing over rocky sections of trail, listen and look for pikas; if you’re quiet you’ll be able to spot them. At 1.5 miles is Clover Lake. Here you’ll find an array of wildflowers surrounding the lake. Again, nice, but you’ll want to keep going.",
+    "url": "http://www.wta.org/go-hiking/hikes/palisades-lakes"
+  },
+
+  {
+    "name": "Norse Peak",
+    "location": "Mount Rainer Area",
+    "rating": "4",
+    "distance": "10.6",
+    "elevation": "2800",
+    "description": "Hike here in summer and you'll want to pack several quarts of water, then toss in two more once you've got all you think you'll need. And you'll want to be hydrated and feeling good, because the scenery along these parched slopes will be something you'll want to see and remember for a long time. When you tire of the rainbow of wildflowers on the ground, you can look up to find breathtaking vistas around every corner. Herds of elk frequent the meadows, and mountain goats dance and prance around the rocks at the ridge top. Hawks and golden eagles soar overhead, and small snakes and alligator lizards live on the sun-heated slopes underfoot.",
+    "url": "http://www.wta.org/go-hiking/hikes/norse-peak"
+  },
+
+  {
+    "name": "Crystal Peak",
+    "location": "Mount Rainer Area",
+    "rating": "4",
+    "distance": "8",
+    "elevation": "3100",
+    "description": "Check the weather before heading out for this hike, and if it’s going to be clear, bring a camera. From the summit, it’s possible to see six (yes, six!) volcanoes spanning two states. Baker, Glacier, Adams, Rainier, St. Helens and Hood wait patiently for you to climb the more-than-moderately steep path to the summit of Crystal Peak, where you can take in beautiful snow-capped majesty from the top. Begin at an unmarked trailhead on the left-hand side of Highway 410. The trail immediately crosses a delightful stream, which you’ll be even more thankful for on the way down; it’s a great spot to stop and dip your feet after four miles of relentless downhill. Cross the water using a footlog with a handrail, and get ready to climb. Quite a bit of elevation is gained in the first mile and a half, using switchbacks that zig zag through a less-than-inspiring second-growth forest. The best part about this section is the shade, and occasional peek-a-boo views of Rainier.",
+    "url": "http://www.wta.org/go-hiking/hikes/crystal-peaks"
+  },
+
+  {
+    "name": "Sheep Lake and Sourdough Gap",
+    "location": "Mount Rainer Area",
+    "rating": "3.6",
+    "distance": "7.0",
+    "elevation": "1100",
+    "description": "This is a pleasant hike to a small lake and a notched gap with sweeping views. Sheep Lake is nestled in a subalpine area that explodes with wildflowers in July and August. The lake is a good place to relax and enjoy nature or perhaps take off your boots and go wading. Sourdough Gap is a small saddle in a rocky-edged ridge. The hike from the lake to the gap offers increasingly picturesque views of the south Cascades with every foot of altitude you gain. Once at the gap, you will be rewarded with grand views of Sheep Lake on one side and the Chrystal Lakes basin on the other side.",
+    "url": "http://www.wta.org/go-hiking/hikes/sourdough-gap"
+  },
+
+  {
+    "name": "Owyhigh Lakes",
+    "location": "Mount Rainer Area",
+    "rating": "3.0",
+    "distance": "8.0",
+    "elevation": "1650",
+    "description": "The local wildlife love the Owyhigh Lakes. This pair of shallow forest lakes provides good water, lots of forage in the shoreline meadows, and wonderful cover in the forests that press in around the lakes. Hikers find limited views from the trail--though there are nice views up to Cowlitz Chimneys and Tamanos Mountain. But the forest environment this trail explores is unmatched for those who appreciate a rich woodland ecosystem. Kids and adults appreciate the wildlife-viewing potential. Birds and beasts (large and small) thrive in this forest, and birds fill the lakes basin. Repeated visits to the lakes have let me spot grouse, pileated woodpeckers, mountain blue jays, cedar waxwings, ospreys, bald eagles, golden eagles, tanagers, and a host of birds I couldn't identify. There's also a fair amount of huckleberries along the route if you time your trip just right.
+    Running south through lush old forest, the trail climbs steadily from the get-go. ",
+    "url": "http://www.wta.org/go-hiking/hikes/owyhigh-lakes"
+  },
+
+  {
+    "name": "Sun Top Snowshoe",
+    "location": "Mount Rainer Area",
+    "rating": "2.5",
+    "distance": "10.0",
+    "elevation": "3000",
+    "description": "The route to the top of Sun Top is often groomed for cross-country skiers, but snowshoers will still enjoy this trek. After all, the views are just as spectacular, and the winter landscape just as pretty, even when the trail has been leveled for skiers. Just stick to the edges of the road to avoid tromping on skiers' tracks, and take advantage of any opportunity to climb off the road and cross open meadows for maximum snowshoeing fun. Attaining the summit of Sun Top requires considerable energy, but the workout is well rewarded with unmatched views of the country northwest of Mount Rainier. The White River valley stretches below the mountain, and Mount Rainier towers above. The lower section of the route is sometimes visited by the White River elk herd, so keep an eye out for the big beasts. This is also prime cougar country (due, in large part, to the presence of the elk). Seeing one of the big cats is a pleasure. Cougars pose little threat to adult humans, although kids shouldn't be allowed to run ahead. The odds of seeing a mountain lion are extremely low, but a couple lucky snowshoers have excitedly reported seeing the tawny cats streaking away from the road when the elk are nearby. ",
+    "url": "http://www.wta.org/go-hiking/hikes/sun-top-snowshoe"
+  },
+
+  {
+    "name": "Dalles Ridge",
+    "location": "Mount Rainer Area",
+    "rating": "3.8",
+    "distance": "1.8",
+    "elevation": "200",
+    "description": "Dalles Ridge is the primary way that hikers access the popular Noble Knob Trail and Ranger Creek. It provides hikers with a beautiful ridge walk after a steady climb from the trailhead. Begin in a clearing at about 5,300 feet and follow the trail up the ridgeline. A little more than half a mile up the trail, arrive at a junction with the Ranger Creek Trail. From here you can often glimpse Mounts Rainier and Baker, Glacier Peak, and the craggy Stuart Range. If it's particularly clear, you may even catch sight of the Olympics.  ",
+    "url": "http://www.wta.org/go-hiking/hikes/dalles-ridge"
+  },
+
+  {
+    "name": "Little Ranger Peak",
+    "location": "Mount Rainer Area",
+    "rating": "3.2",
+    "distance": "12.0",
+    "elevation": "2500",
+    "description": "This infrequently visited trail is the perfect hike early in the season, because the snow melts off the south-facing flanks of the peak early. If you miss the springtime, save it for fall, because the deciduous trees that line the path make it ideal for a shot of fall color. Enjoy a moderately graded that leads you to a summit that boasts views of Rainier and the White River valley. Follow the White River Trail south along the highway to find the trailhead for the Ranger Creek Trail. Start here, and climb gradually through imposing old-growth forest, passing trees laden with moss. The abundance of life surrounding you is humbling. ",
+    "url": "http://www.wta.org/go-hiking/hikes/little-ranger-peak"
+  },
+
+  {
+    "name": "Arch Rock",
+    "location": "Mount Rainer Area",
+    "rating": "4.6",
+    "distance": "12.0",
+    "elevation": "500",
+    "description": "Following the Pacific Crest Trail (PCT) south from the broad fields of Government Meadow, this route explores one of the most solitary sections of the nation's premiere trail. Hikers can experience deep forests and rock bluffs, and dogs can walk with their humans without worrying about encountering too many other hikers along the way. The trail starts on an old wagon road that crossed the Cascades at nearby Naches Pass (now used extensively by four-wheel-drive fanatics).The trail leaves the clear-cut on an old logging road that leads into the trees. In 0.5 mile the broad connector trail ends at a junction with the PCT. Turning left leads you to Government Meadow in about 0.5 mile. Take this side trip now, or leave it for your return trip.",
+    "url": "http://www.wta.org/go-hiking/hikes/arch-rock"
   }
 ]
