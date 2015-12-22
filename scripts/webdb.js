@@ -37,7 +37,7 @@ webDB.connect = function (database, title, size) {
 };
 
 webDB.setupTables = function () {
-  webDB.execute('CREATE TABLE IF NOT EXISTS trails (id INTEGER PRIMARY KEY, title VARCHAR(255) NOT NULL, author VARCHAR(255) NOT NULL, authorUrl VARCHAR (255), category VARCHAR(20), publishedOn DATETIME, markdown TEXT NOT NULL);');
+  webDB.execute('CREATE TABLE IF NOT EXISTS trails (id INTEGER PRIMARY KEY, name VARCHAR(255) NOT NULL, location VARCHAR(255) NOT NULL, rating INT, distance INT, elevation INT, description TEXT NOT NULL, url VARCHAR(255));');
 };
 
 webDB.execute = function (sql, callback) {
