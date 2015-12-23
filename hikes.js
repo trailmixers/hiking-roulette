@@ -42,18 +42,11 @@ Trail.populateTable = function (callback) {
   }).done(callback);
 };
 
-
-Trail.checkTable = function (array) {
-  console.log(Trail.all);
-  if (array.length === 0) {
-    webDB.execute('DELETE FROM trails;');
-    trailsController.index();
-  } else {
-    trailsController.index();
-  };
+var checkTable = function () {
+  webDB.execute('DELETE FROM trails;');
 };
 
-
 $(document).ready(function(){
+  checkTable();
   webDB.init();
 });
