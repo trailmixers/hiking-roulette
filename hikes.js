@@ -44,6 +44,24 @@ Trail.populateTable = function (callback) {
 };
 
 
+
 $(document).ready(function(){
   webDB.init();
+  $('.form-control').change(function() {
+    var location = ($('.location:selected').val());
+    var distance = ($('.distance:selected').val());
+    var elevation =($('.elevation:selected').val());
+    console.log(location);
+    console.log(distance);
+    console.log(elevation);
+
+  });
+
+
+
+
+
+
+
+
 });
