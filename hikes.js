@@ -53,40 +53,7 @@ Trail.checkTable = function (array) {
   };
 };
 
-// Trail.requestAll = function(next, callback) {
-//   $.getJSON('/trails.json', function (data) {
-//     data.forEach(function(item) {
-//       var trail = new Trail(item);
-//       trail.insertRecord();
-//     }).done();
-//     next(callback);
-//   });
-// };
-//
-// Trail.loadAll = function(callback) {
-//   var callback = callback || function() {};
-//
-//   if (Trail.all.length === 0) {
-//     webDB.execute('SELECT * FROM trails;',
-//       function(rows) {
-//         if (rows.length === 0) {
-//           console.log("if")
-//           Trail.requestAll(Trail.loadAll, callback);
-//         } else {
-//           console.log("else");
-//           rows.forEach(function(row) {
-//             Trail.all.push(new Trail(row));
-//           });
-//           callback();
-//         }
-//       }
-//     );
-//   } else {
-//     callback();
-//   }
-// };
 
 $(document).ready(function(){
   webDB.init();
-  // Trail.checkTable(Trail.all);
 });
