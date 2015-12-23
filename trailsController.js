@@ -2,7 +2,7 @@ var trailsController = {};
 
 trailsController.index = function() {
   Trail.populateTable(trailsView.index);
-  trailsView.index();
+  // trailsView.index();
 };
 
 trailsController.template = function(ctx, next) {

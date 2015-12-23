@@ -33,6 +33,7 @@ Trail.prototype.deleteRecord = function(callback) {
 Trail.all = [];
 
 Trail.populateTable = function (callback) {
+  webDB.execute('DELETE FROM trails;');
   $.getJSON('/trails.json', function (data) {
     data.forEach(function(item) {
       var trail = new Trail(item);
@@ -40,17 +41,6 @@ Trail.populateTable = function (callback) {
       Trail.all.push(trail);
     });
   }).done(callback);
-};
-
-
-Trail.checkTable = function (array) {
-  console.log(Trail.all);
-  if (array.length === 0) {
-    webDB.execute('DELETE FROM trails;');
-    trailsController.index();
-  } else {
-    trailsController.index();
-  };
 };
 
 
