@@ -32,58 +32,28 @@ Trail.prototype.deleteRecord = function(callback) {
 
 Trail.all = [];
 
-Trail.populateTable = function () {
+Trail.populateTable = function (callback) {
   $.getJSON('/trails.json', function (data) {
     data.forEach(function(item) {
       var trail = new Trail(item);
       trail.insertRecord();
       Trail.all.push(trail);
     });
-  });
+  }).done(callback);
 };
 
 
 Trail.checkTable = function (array) {
+  console.log(Trail.all);
   if (array.length === 0) {
     webDB.execute('DELETE FROM trails;');
-    Trail.populateTable();
+    trailsController.index();
   } else {
-    Trail.populateTable();
+    trailsController.index();
   };
 };
 
-// Trail.requestAll = function(next, callback) {
-//   $.getJSON('/trails.json', function (data) {
-//     data.forEach(function(item) {
-//       var trail = new Trail(item);
-//       trail.insertRecord();
-//     }).done();
-//     next(callback);
-//   });
-// };
-
-// Trail.loadAll = function(callback) {
-//   var callback = callback || function() {};
-//
-//   if (Trail.all.length === 0) {
-//     webDB.execute('SELECT * FROM trails;',
-//       function(rows) {
-//         if (rows.length === 0) {
-//           Trail.requestAll(Trail.loadAll, callback);
-//         } else {
-//           rows.forEach(function(row) {
-//             Trail.all.push(new Trail(row));
-//           });
-//           callback();
-//         }
-//       }
-//     );
-//   } else {
-//     callback();
-//   }
-// };
 
 $(document).ready(function(){
   webDB.init();
-  Trail.checkTable(Trail.all);
 });
