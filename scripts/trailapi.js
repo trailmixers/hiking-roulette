@@ -1,4 +1,4 @@
-var requestURL = 'https://trailapi-trailapi.p.mashape.com/?'
+var requestURL = 'https://trailapi-trailapi.p.mashape.com/?';
 requestURL += 'lat=47.5&';
 requestURL += 'lon=-122.3&';
 requestURL += 'radius=20&';

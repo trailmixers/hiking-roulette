@@ -33,6 +33,7 @@ Trail.prototype.deleteRecord = function(callback) {
 Trail.all = [];
 
 Trail.populateTable = function (callback) {
+  webDB.execute('DELETE FROM trails;');
   $.getJSON('/trails.json', function (data) {
     data.forEach(function(item) {
       var trail = new Trail(item);
@@ -42,11 +43,15 @@ Trail.populateTable = function (callback) {
   }).done(callback);
 };
 
-var checkTable = function () {
-  webDB.execute('DELETE FROM trails;');
-};
-
 $(document).ready(function(){
-  checkTable();
   webDB.init();
+  $('.form-control').change(function() {
+    var location = ($('.location:selected').val());
+    var distance = ($('.distance:selected').val());
+    var elevation =($('.elevation:selected').val());
+    console.log(location);
+    console.log(distance);
+    console.log(elevation);
+
+  });
 });
