@@ -2,10 +2,6 @@ var trailsController = {};
 
 trailsController.index = function() {
   Trail.populateTable(trailsView.index);
-<<<<<<< HEAD
-=======
-  // trailsView.index();
->>>>>>> 665bb82311ce80a0febb535bc5143044eb40ec13
 };
 
 trailsController.template = function(ctx, next) {
