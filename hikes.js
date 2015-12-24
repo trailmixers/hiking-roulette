@@ -48,13 +48,16 @@ Trail.populateTable = function (callback) {
 $(document).ready(function(){
   webDB.init();
   $('.form-control').change(function() {
-    var location = ($('.location:selected').val());
-    var distance = ($('.distance:selected').val());
-    var elevation =($('.elevation:selected').val());
-    console.log(location);
-    console.log(distance);
-    console.log(elevation);
-
+     var string = 'SELECT * FROM trails WHERE '
+     var location = ($('.location:selected').val());
+     string += 'location = ' + "'" + location + "'";
+     var distance = ($('.distance:selected').val());
+     string += ' AND distance ' + distance;
+     var elevation =($('.elevation:selected').val());
+     string += ' AND elevation ' + elevation;
+     webDB.execute(string, function(tx) {
+      console.log(tx);
+    });
   });
 
 
