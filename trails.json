@@ -53,6 +53,123 @@
    "description": "Beautiful waterfall flows out of Lake Serene and cascades below the rugged east wall of Mount Index at the end ofa trail on the west side of Bridal Veil Creek. Take time to see and enjoy a stunning view of Bridal Veil Falls and climb flights of steps paralleling the falls. Children will be fascinated as they stand directly beside the water and look up a 100-foot rock face to see the streams of water that make up the bridal veil pouring beside them. An old nearby mine, the Honeymoon Mine, brought the original nineteenth-century travelers to the Lake Serene area.",
    "url": "http://www.wta.org/go-hiking/hikes/bridal-veil-falls"
  },
+ {
+    "name": "Poe Mountain via Irving Pass",
+    "location": "Central Cascades",
+    "rating": "3.7",
+    "distance": "5.0",
+    "elevation": "1800",
+    "description": "There are two trails to Poe Mountain: the original steep supply route to the retired fire lookout via a trail rising from the Little Wenatchee Falls campground (#1520), and the more moderate trail via the Irving Pass Trail. Both trails are two and a half miles long, but the one beginning at Little Wenatchee Falls campground gains a full 3000 feet in elevation. It's guaranteed to get your heart pounding, but Irving Pass is the recommended route, since you spend a significant amount of the hike on the ridge with awesome views both north and south.",
+    "url": "http://www.wta.org/go-hiking/hikes/irving-pass"
+  },
+  {
+    "name": "Minotaur Lake",
+    "location": "Central Cascades",
+    "rating": "3.2",
+    "distance": "3.5",
+    "elevation": "1905"
+    "description": "Tucked in a cirque a few miles east of Stevens Pass are Minotaur Lake, its immediate neighbor Theseus and overlooking Labyrinth Mountain. This group of alpine destinations, named for symbols in the Greek mythos, make for a great day hike and an excellent workout.",
+    "url": "http://www.wta.org/go-hiking/hikes/minotaur-lake"
+  },
+  {
+    "name": "Quartz Creek",
+    "location": "Central Cascades",
+    "rating": "2.2",
+    "distance": "8.4",
+    "elevation": "1500",
+    "description": "This trail is commonly used by backpackers, but it also makes a great day hike. Hike through shady forest, accompanied by the sound of Quartz Creek, little waterfalls, wildflowers and interesting things to see (and eat) on this trail. Just make sure you know that you CAN eat it! Start out paralleling the creek, and after a couple of miles, leave the creek and gently climb to Curry Gap. Be aware of brushy areas that will soak your pants when wet, as well as one tricky stream crossing, where there is a large pool and some slippery rocks. Curry Gap is a big meadow. where 3 trails meet. There is a nice log in the meadow to eat lunch, and contemplate adventuring up one of these three options. Try Bald Eagle Mountain for mountain views when it's clear.",
+    "url": "http://www.wta.org/go-hiking/hikes/quartz-creek-1"
+  },
+  {
+    "name": "Jumpoff Ridge",
+    "location": "Central Cascades",
+    "rating": "NA",
+    "distance": "8.0",
+    "elevation": "1800",
+    "description": "NA",
+    "url": "http://www.wta.org/go-hiking/hikes/jumpoff-ridge"
+  },
+  {
+    "name": "Grace Lakes",
+    "location": "Central Cascades",
+    "rating": "4.6",
+    "distance": "4.0",
+    "elevation": "500",
+    "description": "During the summer, this hike is an easy walk up a relatively steep service road on the west side of the mountain. It's short, Snowshoeing - The trail is a gradual uphill climb, mostly over a road, to a basin with Grace Lake. Park in Stevens Pass Ski Area lot 4 and follow the groomed trail/road past the Mountaineer's cabin. Where the gooming ends, follow the trail to the right. The trail mostly follows a road, and the road is sometimes a Sno-Cat track to provide access for Highway 2 avalanche control.",
+    "url": "http://www.wta.org/go-hiking/hikes/grace-lakes"
+  },
+  {
+    "name": "Evans Lake",
+    "location": "Central Cascades",
+    "rating": "3.0",
+    "distance": "1.0",
+    "elevation": "50",
+    "description": "A long, albeit decent logging road to a short, albeit pleasant trail, the trip to Evans Lake makes for a quick wilderness fix. Come here to snow probe in early season, berry pick in late summer, or reflect in late fall. Except perhaps for a few anglers, it should just be you and the frogs and the dragonflies at this little lake. The wide and well-groomed path immediately enters ancient forest and the Alpine Lakes Wilderness. Back in the logging frenzy of the 1980s and early '90s, the congressionally set wilderness border was all that kept these old trees surrounding Evans Lake from becoming lumber. Following alongside the gently flowing outlet creek, reach the lake within mere minutes. Ringed by grassy shores and old-growth trees, it's a pleasant spot.",
+    "url": "http://www.wta.org/go-hiking/hikes/evans-lake-1"
+  },
+  {
+    "name": "Deception Creek",
+    "location": "Central Cascades",
+    "rating": "4.0",
+    "distance": "11.0",
+    "elevation": "1200",
+    "description": "Everything that makes a river hike fun is here, cool bridges, waterfalls, big trees, lots of dripping moss, and mushrooms.",
+    "url": "http://www.wta.org/go-hiking/hikes/deception-creek"
+  },
+  {
+    "name": "Mount Baring",
+    "location": "Central Cascades",
+    "rating": "4.0",
+    "distance": "7.0",
+    "elevation": "3500",
+    "description": "The unofficial Mount Baring trail shares the parking lot with the Barclay lake trail. A fairly well used climber's trail goes straight up, and up, and then up Mount Baring. The trail requires moderate navigational skills and possibly climbing equipment in bad weather. After roughly 2000' in gain over a little over a mile one reach the ridge line. More significant climbing brings one to a notch. Ascent of this gully will vary with snow conditions and experience. An ice ax is recommended during the spring and summer. After gaining a hundred feet or so the angle eases off and a cairned trail leads to the summit.",
+    "url": "http://www.wta.org/go-hiking/hikes/mount-baring"
+  },
+  {
+    "name":"Evergreen Mountain Lookout",
+    "location": "Central Cascades",
+    "rating": "3.2",
+    "distance": "2.8",
+    "elevation": "1425",
+    "description": "short but stiff climb through an old burn, old growth forest, and alpine meadows to a restored fire lookout standing sentinel over the western flanks of the Wild Sky Wilderness. Stuart, Daniel, Hinman and other Snoqualmie friends lie to the south with Rainier watching over them all. To the west, view the gems of Wild Sky - Merchant, Gunn, and Spire – and to the north, gaze upon the Monte Cristo massif, Sloan, and Whitehorse. The meadows of Fortune and Grizzly backed by the Poet Peaks and Nason Ridge round our your view to the east.",
+    "url": "http://www.wta.org/go-hiking/hikes/evergreen-mountain-lookout"
+  },
+  {
+    "name": "Wellington Ghost Town",
+    "location": "Central Cascades",
+    "rating": "NA",
+    "distance": "2.0",
+    "elevation": "20",
+    "description": "The town of Wellington ceased to be, at least in name, long before it officially became a ghost town. The town was founded in 1893 at the west portal of the Cascade Tunnel along the Great Northern Railway. The town included a train depot that was unfortunately destined to become the site of the deadliest avalanche in US history. On March 1, 1910, a passenger train and a mail train were stuck at the Wellington Depot waiting out a blizzard that had been raging for nine days. During the night, while most people were sleeping, an avalanche hit the trains and the station quickly sweeping everything about 150 feet downhill into the Tye River valley. 96 people were killed in the event. Only 23 survived. In October of 1910 Wellington was quietly renamed Tye to ease the fears of travelers who would forever associate the name Wellington with this tragic event.",
+    "url": "http://www.wta.org/go-hiking/hikes/wellington-ghost-town"
+  },
+  {
+    "name": "Lanham Lake",
+    "location": "Central Cascades",
+    "rating": "2.0",
+    "distance": "3.2",
+    "elevation": "1140",
+    "description": "A small lake under a big mountain, reached by a short trail alongside a pretty creek shaded by old trees-Lanham makes for a good afternoon hike or a nice break from traveling busy US 2. A popular winter snowshoe destination, the lake is fairly peaceful during the summer. Visit in June when lake and creek levels are high and the forest is alive with avian arias.",
+    "url": "http://www.wta.org/go-hiking/hikes/lanham-lake"
+  },
+  {
+    "name": "Glasses Lake",
+    "location": "Central Cascades",
+    "rating": "NA",
+    "distance": "10.0",
+    "elevation": "700",
+    "description": "asses Lake is an add on destination from Heather Lake (#1526) near Lake Wenatchee. This is a beautiful small lake tucked immediately under Grizzly Peak and the Pacific Crest Trail (PCT). Where Heather Lake is often shared with a number of hiking and camping groups, you are pretty much assured to have lunch by yourself at Glasses. Only a half-dozen trip reports have been filed in the last decade, this is a good predictor of solitude.",
+    "url": "http://www.wta.org/go-hiking/hikes/glasses-lake"
+  },
+  {
+    "name": "Dirtyface Lookout and Peak",
+    "location": "Central Cascades",
+    "rating": "3.1",
+    "distance": "9.0",
+    "elevation": "3950",
+    "description": "DirtyFace Lookout is one of the earliest high Central Cascade trails to melt out. At four miles and with 4000 feet of elevation gain, the trail provides hikers with a very good workout. Along the way, you'll have lots to look at, as the elevation change can roll an entire season of wildflowers into a single hike. Rock roses and paintbrush bob near the trailhead, while avalanche lilys sway in the breeze near the summit. When you aren't looking at the wildflowers, the vistas are outstanding.",
+    "url": "http://www.wta.org/go-hiking/hikes/dirtyface-lookout-site"
+  },
   {
     "name": "Windy Pass - Mount Catherine Snowshoe",
     "location": "Snoqualmie Pass",

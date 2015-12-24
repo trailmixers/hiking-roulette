@@ -43,28 +43,18 @@ Trail.populateTable = function (callback) {
   }).done(callback);
 };
 
-
-
 $(document).ready(function(){
   webDB.init();
   $('.form-control').change(function() {
-     var string = 'SELECT * FROM trails WHERE '
-     var location = ($('.location:selected').val());
-     string += 'location = ' + "'" + location + "'";
-     var distance = ($('.distance:selected').val());
-     string += ' AND distance ' + distance;
-     var elevation =($('.elevation:selected').val());
-     string += ' AND elevation ' + elevation;
-     webDB.execute(string, function(tx) {
+    var string = 'SELECT * FROM trails WHERE '
+    var location = ($('.location:selected').val());
+    string += 'location = ' + "'" + location + "'";
+    var distance = ($('.distance:selected').val());
+    string += ' AND distance ' + distance;
+    var elevation =($('.elevation:selected').val());
+    string += ' AND elevation ' + elevation;
+    webDB.execute(string, function(tx) {
       console.log(tx);
     });
   });
-
-
-
-
-
-
-
-
 });
