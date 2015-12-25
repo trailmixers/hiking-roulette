@@ -10,7 +10,7 @@
 
   </head>
   <body>
-    <header>
+    <header id="start">
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -24,7 +24,7 @@
           </div>
            <div class="collapse navbar-collapse" id="collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#trailmix">Trail Mix</a></li>
+              <li><a href="#start">Trail Mix</a></li>
               <li><a href="#trails">Trails</a></li>
               <li><a href="#about">About Us</a></li>
             </ul>
@@ -101,7 +101,7 @@
                 <option class="elevation" value="BETWEEN 2000 AND 2500">2000-2500</option>
                 <option class="elevation" value="BETWEEN 2500 AND 100000">2500+</option>
               </select><br>
-              <button type="button" class="btn btn-primary btn-lg btn-block">Take Me Hiking!</button>
+              <button type="button" id="findhike" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target=".filterResults">Take Me Hiking!</button>
             </form>
           </section>
         </div><!-- form -->
@@ -109,8 +109,8 @@
     </div><!--page -->
   </div><!--main -->
 
-  <div id="trails">
-    <article class="trailList"></article>
+  <article class="trailList"><h1>Trails!</h1></article>
+  <div class="container col-leg-12" id="trails"><!--where the list of trails go -->
   </div>
 
 
@@ -124,6 +124,20 @@
       </div><!-- container-fluid -->
     </footer>
 
+    <!-- pop out model -->
+    <div class="modal fade filterResults" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Filter Results</h4>
+          </div>
+          <div class="modal-body">
+
+          </div>
+        </div>
+      </div>
+    </div><!-- pop out model -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>

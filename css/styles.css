@@ -7,6 +7,11 @@ header .navbar-brand{
   padding-bottom: 46px;
 }
 
+.main {
+	border-bottom: solid 2px;
+	padding-bottom: 50px;
+}
+
 /*form*/
 .randomizer {
   margin-top: 50px;
@@ -15,8 +20,23 @@ header .navbar-brand{
   margin-bottom: 20px;
 }
 
+.highlight {
+	border: 2px solid #ff0000;
+}
+
 /*footer*/
 footer{
   background-color: black;
 
+}
+
+.trailList{
+	text-align: center;
+	border-bottom: solid 1px;
+
+}
+
+.col-leg-12{
+	height: 500px;
+	overflow: scroll;
 }
