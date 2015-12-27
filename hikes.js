@@ -94,3 +94,41 @@ $(document).ready(function(){
   });
 
 });
+
+// ----------- New Hike Form -----------//
+var newTrailArray = [];
+
+function NewTrail() {
+  this.name = $('#newName').val();
+  this.location = $('#newLocation').val();
+  this.rating = $('#newRating').val();
+  this.distance = $('#newDistance').val();
+  this.elevation = $('#newElevation').val();
+  this.description = $('#newDescription').val();
+  this.url = $('#newURL').val();
+  newTrailArray.push(this);
+}
+
+NewTrail.prototype.insertRecord = function(callback) {
+  webDB.execute(
+    [
+      {
+        'sql': 'INSERT INTO trails (name, location, rating, distance, elevation, description, url) VALUES (?, ?, ?, ?, ?, ?, ?);',
+        'data': [this.name, this.location,this.rating, this.distance, this.elevation, this.description, this.url],
+      }
+    ],
+    callback
+  );
+};
+
+var newTrailObject;
+
+var createNewTrail = function() {
+  newTrailObject = new NewTrail(newTrailArray);
+};
+
+$('#newHikeForm').on('submit', function(){
+  event.preventDefault();
+  createNewTrail();
+  newTrailObject.insertRecord(function(){});
+});
