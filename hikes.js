@@ -96,7 +96,7 @@ $(document).ready(function(){
 });
 
 // ----------- New Hike Form -----------//
-newTrailArray = [];
+var newTrailArray = [];
 
 function NewTrail() {
   this.name = $('#newName').val();
@@ -129,5 +129,6 @@ var createNewTrail = function() {
 
 $('#newHikeForm').on('submit', function(){
   event.preventDefault();
+  createNewTrail();
   newTrailObject.insertRecord(function(){});
 });
