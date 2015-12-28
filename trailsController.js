@@ -11,6 +11,6 @@ trailsController.template = function(ctx, next) {
     $.get('/listTemplate.html', function(data, msg, xhr) {
       trailsView.template = Handlebars.compile(data);
       next();
-    }).done();
+    }).done;
   }
 };

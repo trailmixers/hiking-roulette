@@ -10,7 +10,7 @@
 
   </head>
   <body>
-    <header>
+    <header id="start">
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -20,13 +20,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-              <a class="navbar-brand" href="#featured"></a>
+              <a class="navbar-brand" href="/"></a>
           </div>
            <div class="collapse navbar-collapse" id="collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#trailmix">Trail Mix</a></li>
-              <li><a href="#trails">Trails</a></li>
-              <li><a href="#services">About Us</a></li>
+              <li><a href="/">Trail Mix</a></li>
+              <li><a href="/trails">Trails</a></li>
+              <li><a href="/about">About Us</a></li>
             </ul>
           </div><!-- collapse -->
         </div><!-- container-fluid -->
@@ -66,47 +66,146 @@
     <div class="main">
     <div class="page" id="services">
       <div class="content container">
-
-        <article class="service col-sm-5">
-          <h3>Our Goal</h3>
-            <p>Sometimes it's hard to decide which hike you want to go on. Let us make that easy for you.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. </p>
-            <p>Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. </p>
-        </article>
         <div class="col-sm-7">
           <section class="form-body">
+            <h1 style="text-align:center;">Trail mixer</h1>
             <form class="randomizer">
-              <select class="form-control" class="select-location">
-                <option class="location" value="none">-- Location --</option>
-              </select>
+              <label>Location</label>
+            <select class="form-control" class="select-location">
+                <option class="location" value="">-- Location --</option>
+                <option class="location">Central Cascades</option>
+                <option class="location">Snoqualmie Pass</option>
+                <option class="location">Mount Rainier Area</option>
+              </select><br>
+              <label>Distance</label>
               <select class="form-control" class="select-distance">
-                <option class="distance" value="none">-- Distance --</option>
-              </select>
-              <select class="form-control" class="select-difficulty">
-                <option class="difficulty" value="none">-- Difficulty --</option>
-              </select>
-              <button type="button" class="btn btn-primary btn-lg btn-block">Take Me Hiking!</button>
+                <option class="distance" value="">-- Distance --</option>
+                <option class="distance" value="BETWEEN 0 AND 3">0-3</option>
+                <option class="distance" value="BETWEEN 3 AND 6">3-6</option>
+                <option class="distance" value="BETWEEN 6 AND 9">6-9</option>
+                <option class="distance" value="BETWEEN 9 AND 100">9+</option>
+              </select><br>
+              <label>Elevation Gain</label>
+              <select class="form-control" class="select-elevation">
+                <option class="elevation" value="">-- Elevation Gain--</option>
+                <option class="elevation" value="BETWEEN 0 AND 500">0-500</option>
+                <option class="elevation" value="BETWEEN 500 AND 1000">500-1000</option>
+                <option class="elevation" value="BETWEEN 1000 AND 1500">1000-1500</option>
+                <option class="elevation" value="BETWEEN 1500 AND 2000">1500-2000</option>
+                <option class="elevation" value="BETWEEN 2000 AND 2500">2000-2500</option>
+                <option class="elevation" value="BETWEEN 2500 AND 100000">2500+</option>
+              </select><br>
+              <button type="button" id="findhike" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target=".filterResults">Take Me Hiking!</button>
             </form>
           </section>
         </div><!-- form -->
+
+        <article class="service col-sm-5">
+          <h3 style="text-align:center;">Our Goal</h3>
+            <p>Sometimes it's hard to decide which hike you want to go on. Let us make that easy for you.</p>
+            <ol>
+              <li> Pick the Location where you want to hike.</li>
+              <li> Choose the distance you want to hike (in miles).</li>
+              <li> Pick the elevation gain (in feet) you want your hike to have. Take into account the following:</li>
+                <ul>
+                  <li> A larger elevation gain generally means a more difficult trail</li>
+                  <li> Short distance + large elevation gain = more difficult "leg burner" hike</li>
+                  <li> Longer distance + large elevation gain = gradual uphill hike </li>
+                </ul>
+              <li> Press the "Take Me Hiking" button and let us find your next trail and get outdoors quicker!</li>
+            </ol>
+        </article>
+
       </div><!--content container -->
     </div><!--page -->
+    <article class="trailList"><h1>Trails!</h1></article>
+    <div class="container col-leg-12" id="trails"><!--where the list of trails go -->
+    </div>
   </div><!--main -->
 
-  <div id="trails">
-    <article class="trailList"></article>
-  </div>
+
+  <article class="about-team container">
+    <h1 style="text-align:center;">Our Mission</h1>
+    <p>It's 2015, the intersection between technology and the outdoors is getting busier and busier, and, incredibly, hikers of all skill levels are still faced with the difficult decision of deciding the right trail to take. Trail Mix aims to make your's life a little easier and get you outdoors quicker by sorting through libraries of hikes and randomly picking your ideal trail based on your input.</p>
+
+    <h2 style="text-align:center;">The TrailMix Team</h2>
+        <ul class="col-sm-4">
+          <li><img class="profileImg" src="/img/rtprofile.png"><br/><h4>Rick Tesmond</h4>
+            <p>As an avid hiker who recently moved out to the Northwest, Rick spends hours scouring the WTA for new trails to hike during the summertime. When it is raining (unfortunately 3/4ths of the year), Rick spends his time indoors developing software to make life a little easier for people, so we can all enjoy the best three months of hiking the PNW has to offer! Check out his <a href="https://github.com/tesmonrd" target="_blank">GitHub</a></p>
+          </li>
+          </ul>
+          <ul class="col-sm-4">
+          <li><img class="profileImg" src=""><br/><h4>Ardian Ajvazi</h4>
+            <p>Blagh Blagh Blagh</p>
+          </li>
+        </ul>
+        <ul class="col-sm-4">
+          <li><img class="profileImg" src=""><br/><h4>Mike Harris</h4>
+            <p>Blagh blagh blagh</p>
+          </li>
+        </ul>
+</article>
+<div class="container">
+
+<div class="col-sm-6">
+    <div id="newHike" class="container form-body">
+
+        <h2 style="text-align:center;">Help us blaze new Trails!</h2>
+        <p> In order to have a more comprehensive list of trails, please add a new trail if your favorite hike is missing from our list</p>
+
+      <form id='newHikeForm' class="col-sm-6 randomizer">
+        <label>Name of Trail:</label>
+        <input type="text" class="form-control" id="newName" value =""><br>
+
+        <label>Location (ex. Snoqualmie Pass):</label>
+        <input type="text" class="form-control" id="newLocation" value =""><br>
+
+        <label>Rating (0-5):</label>
+        <input type="text" class="form-control" id="newRating" value =""><br>
+
+        <label>Distance (miles):</label>
+        <input type="text" class="form-control" id="newDistance" value =""><br>
+
+        <label>Elevation gain (feet):</label>
+        <input type="text" class="form-control" id="newElevation" value =""><br>
+
+        <label>URL link if available:</label>
+        <input type="text" class="form-control" id="newURL" value =""><br>
+
+        <label>Quick Description:</label>
+        <textarea class="form-control" id="newDescription" rows="8" cols="40"></textarea><br>
+
+        <input class="btn btn-primary btn-lg btn-block" type="submit">
+
+      </form>
+    </div>
+</div>
+</div>
 
     <footer>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12">
-            <p>Made by the TrailMixxers Team&trade; 2015</p>
+            <p>Made by the TrailMix Team&trade; 2015</p>
           </div>
         </div><!-- row -->
       </div><!-- container-fluid -->
     </footer>
 
+    <!-- pop out model -->
+    <div class="modal fade filterResults" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Filter Results</h4>
+          </div>
+          <div class="modal-body">
+
+          </div>
+        </div>
+      </div>
+    </div><!-- pop out model -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -119,7 +218,15 @@
   <!-- MVC Area -->
   <script src="/trailsView.js"></script>
   <script src="/trailsController.js"></script>
+
+  <script src="/listView.js"></script>
+  <script src="/listController.js"></script>
+
+  <script src="/aboutView.js"></script>
+  <script src="/aboutController.js"></script>
+
   <script src="/scripts/router.js"></script>
+
   </body>
 
 </html>

@@ -4,18 +4,63 @@ header .navbar-brand{
 	background-repeat: no-repeat;
 	width: 200px;
 	height: auto;
-  padding-bottom: 46px;
+  padding-bottom: 55px;
+}
+
+.main {
+	border-bottom: solid 2px;
+	padding-bottom: 50px;
 }
 
 /*form*/
 .randomizer {
   margin-top: 50px;
-  margin-left: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+  /*margin-left: 60px;*/
   margin-bottom: 20px;
+
+}
+.form-body{
+	margin-top: 4%;
+	border: solid 1px;
+	border-radius: 37px;
+}
+.highlight {
+	border: 2px solid #ff0000;
 }
 
 /*footer*/
 footer{
   background-color: black;
 
+}
+
+.trailList{
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	background: #493B29;
+	border-color: #493B29;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+
+}
+
+.profileImg {
+	max-width: 15rem;
+}
+
+.about-team li {
+	text-align:center;
+	list-style-type: none;
+}
+
+.col-leg-12{
+	height: 500px;
+	overflow: scroll;
+}
+
+.about-team{
+	border-bottom: solid 1px;
 }

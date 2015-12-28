@@ -1,9 +1,12 @@
 # Trail Mix
 
+Why: To help make life easier for hikers of all skill levels by taking care of a sometimes difficult decision by letting our filters choose for them,  And get hikers outdoors quicker!
+
+What: A single page app that utilizes hard coded and crowd sourced trail information to randomly pick a trail based on user preferences.
 Group name - Trail Mix!
 
-Ardian Ajvazi
 Rick Tesmond
+Ardian Ajvazi
 Mike Harrison
 
 
@@ -19,22 +22,3 @@ User stories:
 9) As a developer, I want the app to be aesthetically pleasing and have a nature-y feel so more people will visit.
 10) As a developer, I want my website to be single page app so my users can navigate faster.
 11) As a developer, I want my site launched on Heroku with a custom URL.
-
-
-To do:
-
-Monday -
-
-  -proposal (time breakout)
-  -html**
-    -framework for filter-table
-    - section divs for randomizer, list, about/team
-  -implement MVC structure {page.js, view, controller}
-  -API/JSON**
-  -page.js*
-  -webdb.js
-  - SQL
-
-Tuesday - we'll see what happens Monday
-
-  -basic CSS so we can work easily
