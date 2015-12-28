@@ -4,7 +4,7 @@ header .navbar-brand{
 	background-repeat: no-repeat;
 	width: 200px;
 	height: auto;
-  padding-bottom: 46px;
+  padding-bottom: 55px;
 }
 
 .main {
@@ -32,8 +32,22 @@ footer{
 
 .trailList{
 	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	background: #493B29;
+	border-color: #493B29;
+	border-top: solid 1px;
 	border-bottom: solid 1px;
 
+}
+
+.profileImg {
+	max-width: 15rem;
+}
+
+.about-team li {
+	text-align:center;
+	list-style-type: none;
 }
 
 .col-leg-12{
