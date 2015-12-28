@@ -1,5 +1,5 @@
 page('/', trailsController.template, trailsController.index);
-// page("/mix", mixController.index);
-// page("/trails", trailsController.index);
-// page("/about", aboutController.index);
+page('/trails', listController.index);
+page('/about', aboutController.index);
+
 page.start();
