@@ -72,20 +72,20 @@ $(document).ready(function(){
 
     webDB.execute(dbQuery, function(tx) {
       //this is where we can add our random
-
+      var ran  = Math.floor(Math.random() * tx.length);
       if(tx.length == 0)
       {
         rowHTML += 'No records were found, please try another filter';
       }
       else {
-        for(var i=0; i<tx.length;i++){
-          if(i==0){ rowHTML += '<div class="row highlight">'; }
-          else {rowHTML += '<div class="row">';}
-          rowHTML += '<div class="col-md-12">';
-          rowHTML += '<h2><a target="_blank" href="'+ tx[i].url +'">'+ tx[i].name +'</a></h2>';
-          rowHTML += '<p>' + tx[i].description + '</p>';
-          rowHTML += '</div></div>';
-        }
+        // for(var i=0; i<tx.length;i++){
+        //   if(i=== ran){ rowHTML += '<div class="row highlight">'; }
+        //   else {rowHTML += '<div class="row">';}
+        //   rowHTML += '<div class="col-md-12">';
+        //   rowHTML += '<h2><a target="_blank" href="'+ tx[i].url +'">'+ tx[i].name +'</a></h2>';
+        //   rowHTML += '<p>' + tx[i].description + '</p>';
+        //   rowHTML += '</div></div>';
+        // }
       }
       $('.modal-body').html(rowHTML);
       console.log(tx);
