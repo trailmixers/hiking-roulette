@@ -13,5 +13,9 @@ trailsView.render = function (trail) {
 };
 
 trailsView.index = function () {
+  $('.page').show();
+  $('#trails').show();
+  $('.trailList').show();
+  $('.about-team').show();
   trailsView.renderGroup(Trail.all);
 };
