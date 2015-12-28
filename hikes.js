@@ -31,15 +31,34 @@ Trail.prototype.deleteRecord = function(callback) {
 
 Trail.all = [];
 
-Trail.populateTable = function (callback) {
-  webDB.execute('DELETE FROM trails;');
+Trail.pushTrails = function (next, callback) {
   $.getJSON('/trails.json', function (data) {
     data.forEach(function(item) {
       var trail = new Trail(item);
       trail.insertRecord();
-      Trail.all.push(trail);
     });
-  }).done(callback);
+    next(callback);
+  });
+};
+
+Trail.loadAll = function(callback) {
+  var callback = callback || function() {};
+  if(Trail.all.length === 0) {
+    webDB.execute('SELECT * FROM trails;',
+    function(rows) {
+      if (rows.length === 0) {
+        Trail.pushTrails(Trail.loadAll, callback);
+      } else {
+        rows.forEach(function(row) {
+          Trail.all.push(new Trail(row));
+        });
+        callback();
+      }
+    }
+  );
+  } else {
+    callback();
+  }
 };
 
 $(document).ready(function(){
