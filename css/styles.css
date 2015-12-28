@@ -20,13 +20,10 @@ header .navbar-brand{
   margin-bottom: 20px;
 }
 
-.highlight {
-	border: 2px solid #ff0000;
-}
-
 /*footer*/
 footer{
   background-color: black;
+	color: #646262;
 
 }
 
