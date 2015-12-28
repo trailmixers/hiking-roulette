@@ -7,13 +7,13 @@ header .navbar-brand{
   padding-bottom: 55px;
 }
 
-.main {
+.main{
 	border-bottom: solid 2px;
 	padding-bottom: 50px;
 }
 
 /*form*/
-.randomizer {
+.randomizer{
   margin-top: 50px;
 	padding-left: 20px;
   /*margin-left: 60px;*/
@@ -24,7 +24,6 @@ header .navbar-brand{
 footer{
   background-color: black;
 	color: #646262;
-
 }
 
 .trailList{
@@ -38,11 +37,11 @@ footer{
 
 }
 
-.profileImg {
+.profileImg{
 	max-width: 15rem;
 }
 
-.about-team li {
+.about-team li{
 	text-align:center;
 	list-style-type: none;
 }
