@@ -1,11 +1,7 @@
 var trailsController = {};
 
 trailsController.index = function() {
-  Trail.populateTable(trailsView.index);
-  $('.page').show();
-  $('#trails').show();
-  $('.trailList').show();
-  $('.about-team').show();
+  Trail.loadAll(trailsView.index);
 };
 
 trailsController.template = function(ctx, next) {
