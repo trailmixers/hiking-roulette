@@ -16,8 +16,18 @@ header .navbar-brand{
 .randomizer{
   margin-top: 50px;
 	padding-left: 20px;
+	padding-right: 20px;
   /*margin-left: 60px;*/
   margin-bottom: 20px;
+
+}
+.form-body{
+	margin-top: 4%;
+	border: solid 1px;
+	border-radius: 37px;
+}
+.highlight {
+	border: 2px solid #ff0000;
 }
 
 /*footer*/
@@ -49,4 +59,8 @@ footer{
 .col-leg-12{
 	height: 500px;
 	overflow: scroll;
+}
+
+.about-team{
+	border-bottom: solid 1px;
 }

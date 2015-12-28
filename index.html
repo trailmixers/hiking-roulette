@@ -66,24 +66,9 @@
     <div class="main">
     <div class="page" id="services">
       <div class="content container">
-
-        <article class="service col-sm-6">
-          <h3>Our Goal</h3>
-            <p>Sometimes it's hard to decide which hike you want to go on. Let us make that easy for you.</p>
-            <ol>
-              <li> Pick the Location where you want to hike.</li>
-              <li> Choose the distance you want to hike (in miles).</li>
-              <li> Pick the elevation gain (in feet) you want your hike to have. Take into account the following:</li>
-                <ul>
-                  <li> A larger elevation gain generally means a more difficult trail</li>
-                  <li> Short distance + large elevation gain = more difficult "leg burner" hike</li>
-                  <li> Longer distance + large elevation gain = gradual uphill hike </li>
-                </ul>
-              <li> Press the "Take Me Hiking" button and let us find your next trail and get outdoors quicker!</li>
-            </ol>
-        </article>
-        <div class="col-sm-6">
+        <div class="col-sm-7">
           <section class="form-body">
+            <h1 style="text-align:center;">Trail mixer</h1>
             <form class="randomizer">
               <label>Location</label>
             <select class="form-control" class="select-location">
@@ -114,6 +99,23 @@
             </form>
           </section>
         </div><!-- form -->
+
+        <article class="service col-sm-5">
+          <h3 style="text-align:center;">Our Goal</h3>
+            <p>Sometimes it's hard to decide which hike you want to go on. Let us make that easy for you.</p>
+            <ol>
+              <li> Pick the Location where you want to hike.</li>
+              <li> Choose the distance you want to hike (in miles).</li>
+              <li> Pick the elevation gain (in feet) you want your hike to have. Take into account the following:</li>
+                <ul>
+                  <li> A larger elevation gain generally means a more difficult trail</li>
+                  <li> Short distance + large elevation gain = more difficult "leg burner" hike</li>
+                  <li> Longer distance + large elevation gain = gradual uphill hike </li>
+                </ul>
+              <li> Press the "Take Me Hiking" button and let us find your next trail and get outdoors quicker!</li>
+            </ol>
+        </article>
+
       </div><!--content container -->
     </div><!--page -->
     <article class="trailList"><h1>Trail List</h1></article>
@@ -123,10 +125,10 @@
 
 
   <article class="about-team container">
-    <h1>Our Mission</h1>
+    <h1 style="text-align:center;">Our Mission</h1>
     <p>It's 2015, the intersection between technology and the outdoors is getting busier and busier, and, incredibly, hikers of all skill levels are still faced with the difficult decision of deciding the right trail to take. Trail Mix aims to make your's life a little easier and get you outdoors quicker by sorting through libraries of hikes and randomly picking your ideal trail based on your input.</p>
 
-    <h2>The TrailMix Team</h2>
+    <h2 style="text-align:center;">The TrailMix Team</h2>
         <ul class="col-sm-4">
           <li><img class="profileImg" src="/img/rtprofile.png"><br/><h4>Rick Tesmond</h4>
             <p>As an avid hiker who recently moved out to the Northwest, Rick spends hours scouring the WTA for new trails to hike during the summertime. When it is raining (unfortunately 3/4ths of the year), Rick spends his time indoors developing software to make life a little easier for people, so we can all enjoy the best three months of hiking the PNW has to offer! Check out his <a href="https://github.com/tesmonrd" target="_blank">GitHub</a></p>
@@ -143,36 +145,42 @@
           </li>
         </ul>
 </article>
+<div class="container">
 
-    <div id="newHike container">
-      <h2>Help us blaze new Trails!</h2>
-      <p> In order to have a more comprehensive list of trails, please add a new trail if your favorite hike is missing from our list</p>
-      <form id='newHikeForm'>
-        <p>Name of Trail
-        <input type="text" id="newName" value ="">
-        </p>
-        <p>Location (ex. Snoqualmie Pass)
-        <input type="text" id="newLocation" value ="">
-        </p>
-        <p>Rating (0-5)
-        <input type="text" id="newRating" value ="">
-        </p>
-        <p>Distance (miles)
-        <input type="text" id="newDistance" value ="">
-        </p>
-        <p>Elevation gain (feet)
-        <input type="text" id="newElevation" value ="">
-        </p>
-        <p>Quick Description
-        </p>
-        <textarea id="newDescription" rows="8" cols="40"></textarea>
-        <p>URL link if available
-        <input type="text" id="newURL" value ="">
-        </p>
-        <input type="submit">
+<div class="col-sm-6">
+    <div id="newHike" class="container form-body">
+
+        <h2 style="text-align:center;">Help us blaze new Trails!</h2>
+        <p> In order to have a more comprehensive list of trails, please add a new trail if your favorite hike is missing from our list</p>
+
+      <form id='newHikeForm' class="col-sm-6 randomizer">
+        <label>Name of Trail:</label>
+        <input type="text" class="form-control" id="newName" value =""><br>
+
+        <label>Location (ex. Snoqualmie Pass):</label>
+        <input type="text" class="form-control" id="newLocation" value =""><br>
+
+        <label>Rating (0-5):</label>
+        <input type="text" class="form-control" id="newRating" value =""><br>
+
+        <label>Distance (miles):</label>
+        <input type="text" class="form-control" id="newDistance" value =""><br>
+
+        <label>Elevation gain (feet):</label>
+        <input type="text" class="form-control" id="newElevation" value =""><br>
+
+        <label>URL link if available:</label>
+        <input type="text" class="form-control" id="newURL" value =""><br>
+
+        <label>Quick Description:</label>
+        <textarea class="form-control" id="newDescription" rows="8" cols="40"></textarea><br>
+
+        <input class="btn btn-primary btn-lg btn-block" type="submit">
+
       </form>
     </div>
-
+</div>
+</div>
 
     <footer>
       <div class="container-fluid">
