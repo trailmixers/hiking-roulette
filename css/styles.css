@@ -19,6 +19,7 @@ header .navbar-brand{
 	padding-right: 20px;
   /*margin-left: 60px;*/
   margin-bottom: 20px;
+	justify-content: center;
 
 }
 .form-body{
@@ -40,7 +41,6 @@ footer{
 	text-align: center;
 	margin-top: 5%;
 	margin-bottom: 3%;
-	background: #493B29;
 	border-color: #493B29;
 	border-top: solid 1px;
 	border-bottom: solid 1px;
@@ -48,7 +48,8 @@ footer{
 }
 
 .profileImg{
-	max-width: 15rem;
+	width: 20rem;
+	height: 20rem;
 }
 
 .about-team li{
@@ -63,4 +64,8 @@ footer{
 
 .about-team{
 	border-bottom: solid 1px;
+}
+
+#newHike {
+	margin-bottom: 4rem
 }
