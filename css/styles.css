@@ -68,3 +68,6 @@ footer{
 #newHike {
 	margin-bottom: 4rem
 }
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+	height: 500px;
+}
