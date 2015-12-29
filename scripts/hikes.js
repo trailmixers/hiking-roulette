@@ -32,7 +32,7 @@ Trail.prototype.deleteRecord = function(callback) {
 Trail.all = [];
 
 Trail.pushTrails = function (next, callback) {
-  $.getJSON('/trails.json', function (data) {
+  $.getJSON('/scripts/trails.json', function (data) {
     data.forEach(function(item) {
       var trail = new Trail(item);
       trail.insertRecord();
